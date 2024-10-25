@@ -1,0 +1,112 @@
+body
+{
+    background-image: url("bobgif2.GIF");
+    background-size: 100%;
+    
+    padding: 0;
+    margin: 0;
+    font-family: 'yekan';
+}
+
+nav
+{
+    display: flex;
+    background-color: rgba(255, 234, 0, 0.748);
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+.list
+{
+display: flex;
+list-style-type: none;
+flex-direction: row-reverse;
+margin-top: 30px;
+}
+.itme1
+{
+    font-size: 30px;
+    padding: 15px;
+    text-decoration: none;
+    color: brown;
+    background-color:#FFA07A;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.itme2
+{
+    margin-right: 20px;
+    font-size: 30px;
+    padding: 15px;
+    text-decoration: none;
+    color: brown;
+    background-color:#FFA07A;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.itme3
+{
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 15px;
+    text-decoration: none;
+    color: brown;
+    background-color:#FFA07A;
+    border-radius: 25px;
+    border-color:#fc4147;
+    font-weight: bold;
+}
+.itme1:hover
+{
+    background-color: #fc373d;
+    transition: all 2s;
+}
+.itme1:hover
+{
+    color: rgb(195, 71, 174);
+    border-radius: 45px;
+    transform: rotateZ(-10deg);
+}
+.itme2:hover
+{
+    background-color: #fc373d;
+    transition: all 2s;
+}
+.itme2:hover
+{
+    color: rgb(55, 255, 0);
+    border-radius: 45px;
+    transform: rotateZ(-10deg);
+}
+.itme3:hover
+{
+    background-color: #fc373d;
+    transition: all 2s;
+}
+.itme3:hover
+{
+    color: aqua;
+    border-radius: 45px;
+    transform: rotateZ(-10deg);
+}
+div audio
+{
+
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right:50%;
+    
+}
+h2
+{
+    background-color: rgba(0, 0, 0, 0.303);
+    padding-left: 25px;
+    margin-right: 55%;
+    direction: rtl;
+}
+video
+{
+    width: 38%;
+    height: 38%;
+}
